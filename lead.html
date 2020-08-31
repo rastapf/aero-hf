@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AERO</title>
+        <link rel="stylesheet" href="./css/style.css">
+    
+    </head>
+    <body>
+        <header>
+            <section class="logo">
+                <img src="./img/logo.png" alt="Logotipo do site" width=120>
+                <h1>AERO</h1>
+            </section>
+            <nav>
+                <ul class="nav">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./lead.html">Lead</a></li>
+                    <li><a href="./case.html">Case</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="contact">
+            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                <h2>Contact Us!</h2>
+
+                <input type=hidden name="oid" value="00D4W000001VIOJ">
+                <input type=hidden name="retURL" value="https://rastapf.github.io/aero-hf/">
+                
+                <label for="salutation">Salutation</label><select  id="salutation" name="salutation"><option value="">--None--</option><option value="Mr.">Mr.</option>
+                <option value="Ms.">Ms.</option>
+                <option value="Mrs.">Mrs.</option>
+                <option value="Dr.">Dr.</option>
+                <option value="Prof.">Prof.</option>
+                </select><br>
+                
+                <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+                
+                <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+                
+                <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+                
+                <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+                
+                <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+                
+                <label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+                
+                <label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+                
+                Aircraft Model:<select  id="00N4W000008lXpZ" name="00N4W000008lXpZ" title="Aircraft Model"><option value="">--None--</option><option value="GC1000">GC1000</option>
+                <option value="GC3000">GC3000</option>
+                <option value="GC5000">GC5000</option>
+                <option value="PJ100">PJ100</option>
+                <option value="PJ300">PJ300</option>
+                </select><br>
+                
+                <input type="submit" name="submit">
+                
+                </form>
+        </main>        
+
+
+    </body>
+</html>
